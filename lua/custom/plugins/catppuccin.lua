@@ -3,7 +3,7 @@ return {
   name = 'catppuccin',
   priority = 1000,
   opts = {
-    flavour = 'mocha',
+    flavour = 'frappe',
     transparent_background = true,
   },
   init = function() vim.cmd.colorscheme 'catppuccin' end,
