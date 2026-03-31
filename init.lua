@@ -33,6 +33,11 @@ vim.schedule(function() vim.o.clipboard = 'unnamedplus' end)
 -- Enable break indent
 vim.o.breakindent = true
 
+-- Tab settings
+vim.o.expandtab = true
+vim.o.tabstop = 4
+vim.o.shiftwidth = 0
+
 -- Enable undo/redo changes even after closing and reopening a file
 vim.o.undofile = true
 
